@@ -108,8 +108,8 @@ Output is saved to `<input_dir>_spectrograms/`.
 ## 📝 Contributing
 
 1. Place audio files in the appropriate `field-tests/` or `synthetic/` subdirectory.
-2. Add a corresponding entry to `metadata/samples.json`.
-3. Run `tools/viz_spectrogram.py` on new files and include the spectrogram in your PR.
+2. `metadata/samples.json` will be updated automatically by CI after merging to `main`.
+3. Optionally run `tools/viz_spectrogram.py` on new files and include the spectrogram in your PR.
 
 ## 📄 License
 
