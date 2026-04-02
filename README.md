@@ -107,9 +107,42 @@ Output is saved to `<input_dir>_spectrograms/`.
 
 ## 📝 Contributing
 
-1. Place audio files in the appropriate `field-tests/` or `synthetic/` subdirectory.
-2. `metadata/samples.json` will be updated automatically by CI after merging to `main`.
-3. Optionally run `tools/viz_spectrogram.py` on new files and include the spectrogram in your PR.
+We welcome contributions of new recordings, synthetic signals, and tool improvements.
+
+### Adding Audio Data
+
+1. **Fork** the repository and create a feature branch:
+   ```bash
+   git checkout -b add/mavic-hover-samples
+   ```
+2. **Place files** in the correct subdirectory:
+   - Drone recordings → `field-tests/DJI/<model>/` or `field-tests/esp32-s3-onboard/`
+   - Ambient / negative samples → `field-tests/ambient/{urban,rural,bat-sites}/`
+   - Calibration signals → `synthetic/sine-sweeps/`
+3. **File requirements:**
+   - Format: WAV (16-bit PCM preferred)
+   - Minimum sample rate: 44.1 kHz
+   - Filename convention: `YYYYMMDD_HHMMSS.WAV` (UTC timestamp)
+4. **Optionally** generate spectrograms to include in your PR:
+   ```bash
+   python tools/viz_spectrogram.py <your-files-directory>
+   ```
+5. **Open a Pull Request** — `metadata/samples.json` will be updated automatically by CI after merging to `main`.
+
+### Improving Tools
+
+1. Install dev dependencies:
+   ```bash
+   pip install -r tools/requirements.txt
+   ```
+2. Make your changes in `tools/`.
+3. Test locally against existing audio files before submitting.
+
+### Guidelines
+
+- Keep commits focused — separate data additions from tool changes.
+- Use descriptive branch names: `add/<description>`, `fix/<description>`, `tool/<description>`.
+- Large files (audio, images) are tracked by Git LFS automatically via `.gitattributes`.
 
 ## 📄 License
 
