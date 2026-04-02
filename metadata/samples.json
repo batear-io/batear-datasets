@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Master registry for Batear acoustic datasets",
+  "version": "0.1.0",
+  "samples": [
+    {
+      "id": "example-001",
+      "filename": "field-tests/DJI/mavic/example.wav",
+      "category": "drone",
+      "subcategory": "mavic-pro",
+      "sample_rate_hz": 44100,
+      "bit_depth": 16,
+      "channels": 1,
+      "duration_sec": 10.0,
+      "timestamp_utc": "2026-01-01T00:00:00Z",
+      "location": "lab",
+      "tags": ["motor-noise", "hovering"],
+      "notes": "Placeholder entry — replace with real recordings."
+    },
+    {
+      "id": "example-002",
+      "filename": "field-tests/ambient/rural/example.wav",
+      "category": "ambient",
+      "subcategory": "rural",
+      "sample_rate_hz": 44100,
+      "bit_depth": 16,
+      "channels": 1,
+      "duration_sec": 30.0,
+      "timestamp_utc": "2026-01-01T00:00:00Z",
+      "location": "field",
+      "tags": ["wind", "insects", "no-drone"],
+      "notes": "Placeholder entry — replace with real ambient recordings."
+    }
+  ]
+}
