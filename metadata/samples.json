@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "samples": [
     {
-      "id": "rural-001",
+      "id": "20230701_054200-8cc32c84",
       "filename": "field-tests/ambient/rural/20230701_054200.WAV",
       "category": "ambient",
       "subcategory": "rural",
@@ -12,12 +12,10 @@
       "bit_depth": 16,
       "channels": 1,
       "duration_sec": 60.0,
-      "timestamp_utc": "2023-07-01T05:42:00Z",
-      "location": "field",
-      "tags": ["no-drone", "dawn"]
+      "timestamp_utc": "2023-07-01T05:42:00+00:00"
     },
     {
-      "id": "rural-002",
+      "id": "20230701_234400-99d9d133",
       "filename": "field-tests/ambient/rural/20230701_234400.WAV",
       "category": "ambient",
       "subcategory": "rural",
@@ -25,12 +23,10 @@
       "bit_depth": 16,
       "channels": 1,
       "duration_sec": 60.0,
-      "timestamp_utc": "2023-07-01T23:44:00Z",
-      "location": "field",
-      "tags": ["no-drone", "night"]
+      "timestamp_utc": "2023-07-01T23:44:00+00:00"
     },
     {
-      "id": "rural-003",
+      "id": "20230702_035200-7ed89812",
       "filename": "field-tests/ambient/rural/20230702_035200.WAV",
       "category": "ambient",
       "subcategory": "rural",
@@ -38,12 +34,10 @@
       "bit_depth": 16,
       "channels": 1,
       "duration_sec": 60.0,
-      "timestamp_utc": "2023-07-02T03:52:00Z",
-      "location": "field",
-      "tags": ["no-drone", "night"]
+      "timestamp_utc": "2023-07-02T03:52:00+00:00"
     },
     {
-      "id": "rural-004",
+      "id": "20230702_095600-6184a82c",
       "filename": "field-tests/ambient/rural/20230702_095600.WAV",
       "category": "ambient",
       "subcategory": "rural",
@@ -51,12 +45,10 @@
       "bit_depth": 16,
       "channels": 1,
       "duration_sec": 60.0,
-      "timestamp_utc": "2023-07-02T09:56:00Z",
-      "location": "field",
-      "tags": ["no-drone", "morning"]
+      "timestamp_utc": "2023-07-02T09:56:00+00:00"
     },
     {
-      "id": "rural-005",
+      "id": "20230702_104400-11cc516c",
       "filename": "field-tests/ambient/rural/20230702_104400.WAV",
       "category": "ambient",
       "subcategory": "rural",
@@ -64,12 +56,10 @@
       "bit_depth": 16,
       "channels": 1,
       "duration_sec": 60.0,
-      "timestamp_utc": "2023-07-02T10:44:00Z",
-      "location": "field",
-      "tags": ["no-drone", "morning"]
+      "timestamp_utc": "2023-07-02T10:44:00+00:00"
     },
     {
-      "id": "rural-006",
+      "id": "20230703_191400-3e59319e",
       "filename": "field-tests/ambient/rural/20230703_191400.WAV",
       "category": "ambient",
       "subcategory": "rural",
@@ -77,9 +67,7 @@
       "bit_depth": 16,
       "channels": 1,
       "duration_sec": 60.0,
-      "timestamp_utc": "2023-07-03T19:14:00Z",
-      "location": "field",
-      "tags": ["no-drone", "evening"]
+      "timestamp_utc": "2023-07-03T19:14:00+00:00"
     }
   ]
 }

@@ -34,6 +34,7 @@ batear-datasets/
 └── tools/                   # Automation and data engineering scripts
     ├── resample.py          # Batch downsampling to production target (16kHz)
     ├── viz_spectrogram.py   # Automated spectrogram generation for PRs
+    ├── generate_metadata.py # Auto-generate samples.json from audio files
     └── requirements.txt     # Python dependencies
 ```
 
