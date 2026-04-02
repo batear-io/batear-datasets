@@ -1,6 +1,5 @@
 # Batear Datasets
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Storage: Git LFS](https://img.shields.io/badge/Storage-Git_LFS-blue)](https://git-lfs.github.com/)
 
 A curated collection of acoustic datasets specifically designed for **drone detection**, **signal classification**, and **bio-acoustic interference analysis** on constrained embedded systems (e.g., ESP32-S3).
