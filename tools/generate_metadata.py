@@ -75,14 +75,32 @@ def file_id(rel_path: Path) -> str:
     return f"{stem}-{digest}"
 
 
-def read_wav_info(path: Path) -> dict:
-    """Extract audio properties from a WAV file header."""
-    with wave.open(str(path), "rb") as w:
-        sr = w.getframerate()
-        ch = w.getnchannels()
-        sw = w.getsampwidth() * 8
-        frames = w.getnframes()
-        duration = round(frames / sr, 3)
+def is_lfs_pointer(path: Path) -> bool:
+    """Return True if the file is a Git LFS pointer instead of real content."""
+    try:
+        with path.open("rb") as f:
+            head = f.read(512)
+        return head.startswith(b"version https://git-lfs.github.com/spec/v1")
+    except Exception:
+        return False
+
+
+def read_wav_info(path: Path) -> dict | None:
+    """Extract audio properties from a WAV file header.
+
+    Returns None when the file cannot be read (e.g. LFS pointer).
+    """
+    if is_lfs_pointer(path):
+        return None
+    try:
+        with wave.open(str(path), "rb") as w:
+            sr = w.getframerate()
+            ch = w.getnchannels()
+            sw = w.getsampwidth() * 8
+            frames = w.getnframes()
+            duration = round(frames / sr, 3)
+    except wave.Error:
+        return None
     return {
         "sample_rate_hz": sr,
         "bit_depth": sw,
@@ -105,6 +123,9 @@ def scan(repo_root: Path) -> list[dict]:
             category, subcategory = infer_category(rel)
             timestamp = infer_timestamp(path.name)
             info = read_wav_info(path)
+            if info is None:
+                print(f"  SKIP (not a valid WAV / LFS pointer): {rel}")
+                continue
             entry = {
                 "id": file_id(rel),
                 "filename": str(rel),
