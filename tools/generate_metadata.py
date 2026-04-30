@@ -23,14 +23,18 @@ AUDIO_EXTENSIONS = {".wav"}
 SCAN_DIRS = ["field-tests", "synthetic"]
 
 CATEGORY_MAP = {
-    "DJI":              ("drone", None),
-    "mavic":            ("drone", "mavic"),
-    "esp32-s3-onboard": ("drone", "esp32-capture"),
-    "ambient":          ("ambient", None),
-    "urban":            ("ambient", "urban"),
-    "rural":            ("ambient", "rural"),
-    "bat-sites":        ("ambient", "bat-sites"),
-    "sine-sweeps":      ("synthetic", "sine-sweep"),
+    "DJI":                ("drone", None),
+    "mavic":              ("drone", "mavic"),
+    "mavic-pro":          ("drone", "mavic-pro"),
+    "mavic-bat-overlap":  ("drone", "mavic-bat-overlap"),
+    "mini-4-pro":         ("drone", "mini-4-pro"),
+    "esp32-s3-onboard":   ("drone", "esp32-capture"),
+    "ambient":            ("ambient", None),
+    "urban":              ("ambient", "urban"),
+    "rural":              ("ambient", "rural"),
+    "bat-sites":          ("ambient", "bat-sites"),
+    "fireworks":          ("ambient", "fireworks"),
+    "sine-sweeps":        ("synthetic", "sine-sweep"),
 }
 
 TIMESTAMP_RE = re.compile(r"(\d{8})[_T](\d{6})")
