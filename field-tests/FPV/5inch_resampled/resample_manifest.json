@@ -1,0 +1,90 @@
+[
+  {
+    "source": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch/20260415_192501.WAV",
+    "destination": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch_resampled/20260415_192501.wav",
+    "original_sr": 44100,
+    "target_sr": 16000,
+    "channels": 2,
+    "duration_sec": 9.078
+  },
+  {
+    "source": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch/20260415_192502.WAV",
+    "destination": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch_resampled/20260415_192502.wav",
+    "original_sr": 44100,
+    "target_sr": 16000,
+    "channels": 2,
+    "duration_sec": 11.33
+  },
+  {
+    "source": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch/20260415_192503.WAV",
+    "destination": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch_resampled/20260415_192503.wav",
+    "original_sr": 44100,
+    "target_sr": 16000,
+    "channels": 2,
+    "duration_sec": 6.431
+  },
+  {
+    "source": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch/20260415_192504.WAV",
+    "destination": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch_resampled/20260415_192504.wav",
+    "original_sr": 44100,
+    "target_sr": 16000,
+    "channels": 2,
+    "duration_sec": 3.319
+  },
+  {
+    "source": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch/20260415_192505.WAV",
+    "destination": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch_resampled/20260415_192505.wav",
+    "original_sr": 44100,
+    "target_sr": 16000,
+    "channels": 2,
+    "duration_sec": 5.177
+  },
+  {
+    "source": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch/20260415_192506.WAV",
+    "destination": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch_resampled/20260415_192506.wav",
+    "original_sr": 44100,
+    "target_sr": 16000,
+    "channels": 2,
+    "duration_sec": 5.804
+  },
+  {
+    "source": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch/20260415_192507.WAV",
+    "destination": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch_resampled/20260415_192507.wav",
+    "original_sr": 44100,
+    "target_sr": 16000,
+    "channels": 2,
+    "duration_sec": 4.109
+  },
+  {
+    "source": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch/20260415_192509.WAV",
+    "destination": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch_resampled/20260415_192509.wav",
+    "original_sr": 44100,
+    "target_sr": 16000,
+    "channels": 2,
+    "duration_sec": 25.773
+  },
+  {
+    "source": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch/20260415_192510.WAV",
+    "destination": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch_resampled/20260415_192510.wav",
+    "original_sr": 44100,
+    "target_sr": 16000,
+    "channels": 2,
+    "duration_sec": 8.242
+  },
+  {
+    "source": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch/20260415_192511.WAV",
+    "destination": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch_resampled/20260415_192511.wav",
+    "original_sr": 44100,
+    "target_sr": 16000,
+    "channels": 2,
+    "duration_sec": 7.684
+  },
+  {
+    "source": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch/20260415_195200.WAV",
+    "destination": "/home/baza/Projects/batear-datasets/field-tests/FPV/5inch_resampled/20260415_195200.wav",
+    "original_sr": 44100,
+    "target_sr": 16000,
+    "channels": 2,
+    "duration_sec": 6.291
+  }
+]
